@@ -205,16 +205,16 @@ if (isset($_GET['ticket']) && !empty($_GET['ticket'])) {
 			 $pdf->Output('D',$filename.'.pdf');
 			
 			 $_SESSION['success'] = "Your Ticket was successfully printed";
-			 header('location:index.php');
+			 echo '<script>window.location.href= "index.php"</script>';
 		}else{
 			$_SESSION['error'] = "Sorry, there is no such ticket.";
-			header('location:index.php');
+			echo '<script>window.location.href= "index.php"</script>';
 		}
 
 	}
 	
 }else{
-	header('location:index.php');
+	echo '<script>window.location.href= "index.php"</script>';
 }
 function getTicketInfo($CheckoutRequestID){
 	global $conn;

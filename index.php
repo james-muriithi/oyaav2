@@ -1,3 +1,7 @@
+<?php
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <!-- Title -->
-    <title>Dorne - Directory &amp; Listing Template</title>
+    <title>Oyaa | Buy & Sell Tickets EA </title>
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="plugins/sweetalert/sweetalert.css">
@@ -50,13 +54,13 @@
             <div class="row h-100">
                 <div class="col-12 h-100">
                     <nav class="h-100 navbar navbar-expand-lg">
-                        <a class="navbar-brand" href="index.html"><img src="img/core-img/oyaa.png" alt=""></a>
+                        <a class="navbar-brand" href="index.php"><img src="img/core-img/oyaa.png" alt=""></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dorneNav" aria-controls="dorneNav" aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
                         <!-- Nav -->
                         <div class="collapse navbar-collapse" id="dorneNav">
                             <ul class="navbar-nav mr-auto" id="dorneMenu">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore <i class="fa fa-angle-down" aria-hidden="true"></i></a>
@@ -79,7 +83,7 @@
                             </div>
                             <!-- Add listings btn -->
                             <div class="dorne-add-listings-btn">
-                                <a href="#" class="btn dorne-btn">+ Add Event</a>
+                                <a href="contact.html" class="btn dorne-btn">+ Add Event</a>
                             </div>
                         </div>
                     </nav>
@@ -89,12 +93,12 @@
     </header>
     <!-- ***** Header Area End ***** -->
     <!-- ***** Welcome Area Start ***** -->
-    <section class="dorne-welcome-area bg-img bg-overlay" style="background-image: url(img/bg-img/hero-1.jpg);">
+    <section class="dorne-welcome-area bg-img bg-overlay" style="background-image: url(img/bg-img/hero-1.jpeg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center justify-content-center">
                 <div class="col-12 col-md-10">
                     <div class="hero-content">
-                        <h4>This is the best guide for your events</h4>
+                        <h4>Get tickets to all your favorite your events</h4>
                     </div>
                     <!-- Hero Search Form -->
                     <div class="hero-search-form">
@@ -133,11 +137,12 @@
                 <span></span>
             </div>
             <div class="social-btns">
+                 <a href="https://www.twitter.com/oyaa_inc-105207630945503/"><i class="fa fa-twitter" aria-haspopup="true"></i></a>
+                <a href="https://www.facebook.com/Oyaa-Inc-105207630945503/"><i class="fa fa-facebook" aria-haspopup="true"></i></a>
                 <a href="#"><i class="fa fa-linkedin" aria-haspopup="true"></i></a>
                 <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter" aria-haspopup="true"></i></a>
-                <a href="#"><i class="fa fa-facebook" aria-haspopup="true"></i></a>
+               
             </div>
         </div>
     </section>
@@ -221,17 +226,17 @@
                             <!-- New card -->
                             <div class="col-sm-6 col-md-4 col-lg-3 ">
                                 <div class="card">
-                                    <img class="card-img-top" src="img/event1.jpg" alt="Card image" height="60%">
+                                    <img class="card-img-top" src="img/core-img/NIGHT.jpg" alt="Card image" height="60%">
                                     <div class="card-body">
-                                        <h4 class="card-title">Mombasa Twerk Night</h4>
-                                        <div class="ribbon ribbon-left ribbon-shadow ribbon-color-danger uppercase"><i class="fa fa-calendar"></i> 08 Sept, 2019</div>
+                                        <h4 class="card-title">Kalenjin Night</h4>
+                                        <div class="ribbon ribbon-left ribbon-shadow ribbon-color-danger uppercase"><i class="fa fa-calendar"></i> 22 Nov, 2019</div>
                                          
                                         <p class="card-text">
-                                            Happening live at Azura Lounge form 8pm till <i>dawn!</i>  
-                                            <span class="text-danger">Tickets sold out!</span>
+                                            Turn up to whine & jiggle to the fast paced beat of the Kalenjin
+                                         
                                         </p>
                                         <div class="event-latest-details">
-                                            <a class="author" href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 8.00pm - 5.00am</a>
+                                            <a class="author" href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 6.00pm - 6.00am</a>
                                             <a class="comments" href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i> Club Azura</a>
                                         </div>
                                         <div class="mx-auto float-left">
@@ -425,7 +430,7 @@
                         </div>
                         <!-- Modal Body -->
                         <div class="modal-body">
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, eos repellendus totam sequi fuga doloremque.</h3>
+                            <h3>Thank you for visiting us and making your purchase! We're glad that you found what you were looking for. It is our goal that you are always happy with what you bought from us, so please let us know if your buying experience was anything short of excellent. We look forward to seeing you again.</h3>
                         </div>
                         <!-- Modal Footer -->
                         <div class="modal-footer">
@@ -447,7 +452,7 @@
                         <span></span>
                         <h4>Featured events</h4>
                     </div>
-                </div>
+                </div>         
             </div>
             <div class="row">
                 <div class="col-12 col-lg-6">
@@ -456,7 +461,7 @@
                             <img src="img/bg-img/event-1.jpg" alt="">
                             <div class="date-map-area d-flex">
                                 <a href="#">26 Nov</a>
-                                <a href="#"><img src="img/core-img/map.png" alt=""></a>
+                                <a href="#"><img src="img/core-img/NIGHT.jpg" alt=""></a>
                             </div>
                         </div>
                         <div class="feature-events-content">
@@ -469,6 +474,8 @@
                         </div>
                     </div>
                 </div>
+                
+           
                 <div class="col-12 col-lg-6">
                     <div class="single-feature-events-area d-sm-flex align-items-center wow fadeInUpBig" data-wow-delay="0.3s">
                         <div class="feature-events-thumb">
@@ -600,11 +607,12 @@
                         </p>
                     </div>
                     <div class="footer-social-btns">
+                         <a href="https://www.twitter.com/oyaa_inc-105207630945503/"><i class="fa fa-twitter" aria-haspopup="true"></i></a>
+                <a href="https://www.facebook.com/Oyaa-Inc-105207630945503/"><i class="fa fa-facebook" aria-haspopup="true"></i></a>
                         <a href="#"><i class="fa fa-linkedin" aria-haspopup="true"></i></a>
                         <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
                         <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-haspopup="true"></i></a>
-                        <a href="#"><i class="fa fa-facebook" aria-haspopup="true"></i></a>
+                        
                     </div>
                 </div>
             </div>
@@ -630,6 +638,30 @@
     <script type="text/javascript" src="plugins/sweetalert/sweetalert.min.js"></script>
 
     <script type="text/javascript" src="js/script.js"></script>
+    <?php
+if (isset($_SESSION['error'])) { 
+    echo '<script type="text/javascript">console.log("hello");swal({
+                title: "Sorry!",
+                text: "'.$_SESSION['error'].'", //put the error message here
+                type: "error",
+                confirmButtonClass: "btn btn-danger m-t-10",
+                confirmButtonText: "Ok",
+                closeOnConfirm: true
+            })</script>';
+            unset($_SESSION['error']);
+}else if(isset($_SESSION['success'])){
+    echo '<script type="text/javascript"> console.log("hello");swal({
+                title: "Good Job!",
+                text: "'.$_SESSION['success'].'", //put the error message here
+                type: "success",
+                confirmButtonClass: "btn btn-success m-t-10",
+                confirmButtonText: "Ok",
+                closeOnConfirm: true
+            })</script>';
+            unset($_SESSION['success']);
+}
+
+?>
 
 
     <script type="text/javascript">

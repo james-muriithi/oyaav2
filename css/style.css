@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'josefin';
+    src: url('../fonts/josefin.ttf');
+}
+@font-face {
+    font-family: 'kanit_regular';
+    src: url('../fonts/kanit_regular.ttf');
+}
 
 .btn-participate {
     border-radius: 50px;
@@ -28,6 +36,17 @@
     -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-text{
+    font-family: kanit_regular;
+    font-size: 14px;
+}
+.event-latest-details{
+    font-family: josefin;
+    color: #99a2a8;
+}
+.card img{
+    height: 310px!important;
 }
 
 .card-title {
