@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/oyaacoke/public_html/trial/
+    - /bin/cp -r * $DEPLOYPATH
