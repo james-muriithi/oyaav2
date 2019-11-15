@@ -430,7 +430,7 @@
                         <!-- Modal Footer -->
                         <div class="modal-footer">
                             <button type="button" class="btn btn-primary btn-reload" data-dismiss="modal">Close</button>
-                            <a href="#" class="btn checkout btn-print"><i class="fa fa-print"></i> Print Ticket</a>
+                            <a href="" class="btn btn-print"><i class="fa fa-print"></i> Print Ticket</a>
                         </div>
                     </div>
                 </div>
