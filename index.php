@@ -79,7 +79,7 @@
                             </div>
                             <!-- Add listings btn -->
                             <div class="dorne-add-listings-btn">
-                                <a href="#" class="btn dorne-btn">+ Add Listings</a>
+                                <a href="#" class="btn dorne-btn">+ Add Event</a>
                             </div>
                         </div>
                     </nav>
@@ -221,12 +221,14 @@
                             <!-- New card -->
                             <div class="col-sm-6 col-md-4 col-lg-3 ">
                                 <div class="card">
-                                    <img class="card-img-top" src="img/bg_4.jpg" alt="Card image" height="170">
+                                    <img class="card-img-top" src="img/event1.jpg" alt="Card image" height="60%">
                                     <div class="card-body">
                                         <h4 class="card-title">Mombasa Twerk Night</h4>
-                                        <div class="ribbon ribbon-left ribbon-shadow ribbon-color-danger uppercase"><i class="fa fa-calendar"></i> 08 Nov, 201p</div>
+                                        <div class="ribbon ribbon-left ribbon-shadow ribbon-color-danger uppercase"><i class="fa fa-calendar"></i> 08 Sept, 2019</div>
+                                         
                                         <p class="card-text">
-                                            Happening live at Azura Lounge form 8pm till <i>cheeee!</i> Ladies ni 200/- shillings only and 300 for joma chuo!
+                                            Happening live at Azura Lounge form 8pm till <i>dawn!</i>  
+                                            <span class="text-danger">Tickets sold out!</span>
                                         </p>
                                         <div class="event-latest-details">
                                             <a class="author" href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 8.00pm - 5.00am</a>
@@ -245,16 +247,41 @@
                             <!-- New card -->
                             <div class="col-sm-6 col-md-4 col-lg-3 ">
                                 <div class="card">
-                                    <img class="card-img-top" src="img/bg_4.jpg" alt="Card image" height="170">
+                                    <img class="card-img-top" src="img/event3.png" alt="Card image" height="60%">
                                     <div class="card-body">
-                                        <h4 class="card-title">Azura Night</h4>
+                                        <h4 class="card-title">KALASHA AWARDS</h4>
+                                        <div class="ribbon ribbon-left ribbon-shadow ribbon-color-danger uppercase"><i class="fa fa-calendar"></i> 4<sup>th</sup> Oct, 2019</div>
+                                        <p class="card-text">
+                                            KALASHA AWARDS 2020   <span class="text-danger">Booking closed!</span>
+                                        </p>
+                                        <div class="event-latest-details">
+                                            <a class="author" href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00Pm - 3.00Am</a>
+                                            <a class="comments" href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i> NAIROBI, KENYA</a>
+                                        </div>
+                                        <div class="mx-auto" style="float: left;">
+                                            <button href="#" class="btn  btn-success">Learn More</button>
+                                        </div>
+                                        <div class="mx-auto" style="float: right;">
+                                            <button href="#" class="btn  btn-participate">Buy Ticket</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of card -->
+                           <!-- New card -->
+                            <div class="col-sm-6 col-md-4 col-lg-3 ">
+                                <div class="card">
+                                    <img class="card-img-top" src="img/event5.jpg" alt="Card image" height="60%">
+                                    <div class="card-body">
+                                        <h4 class="card-title">COLORWARS 2019</h4>
                                         <div class="ribbon ribbon-left ribbon-shadow ribbon-color-danger uppercase"><i class="fa fa-calendar"></i> 19 Oct, 2019</div>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eligendi modi praesentium quas, harum facilis nisi incidunt fuga!
+                                            KERICHO COLORWARS COMING SOON. BY RJ GAMERS
+                                            <span class="text-danger">Booking closed!</span>
                                         </p>
                                         <div class="event-latest-details">
                                             <a class="author" href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00am - 3.00pm</a>
-                                            <a class="comments" href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i> California, USA</a>
+                                            <a class="comments" href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i> KERICHO, KENYA</a>
                                         </div>
                                         <div class="mx-auto" style="float: left;">
                                             <button href="#" class="btn  btn-success">Learn More</button>
@@ -269,19 +296,20 @@
                             <!-- New card -->
                             <div class="col-sm-6 col-md-4 col-lg-3 ">
                                 <div class="card">
-                                    <img class="card-img-top" src="img/bg_4.jpg" alt="Card image" height="170">
+                                    <img class="card-img-top" src="img/event2.jpeg" alt="Card image" height="60%">
                                     <div class="card-body">
-                                        <h4 class="card-title">Azura Night</h4>
-                                        <div class="ribbon ribbon-left ribbon-shadow ribbon-color-danger uppercase"><i class="fa fa-calendar"></i> 19 Oct, 2019</div>
+                                        <h4 class="card-title">NEW YEARS EVE BASH</h4>
+                                        <div class="ribbon ribbon-left ribbon-shadow ribbon-color-danger uppercase"><i class="fa fa-calendar"></i> 21<sup>st</sup> Sept, 2019</div>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eligendi modi praesentium quas, harum facilis nisi incidunt fuga!
+                                           NAKURU N.Y.E BASH BY SUPA CREW KALASHA AWARDS 2020   
+                                            <span class="text-danger">Booking closed!</span>
                                         </p>
                                         <div class="event-latest-details">
-                                            <a class="author" href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00am - 3.00pm</a>
-                                            <a class="comments" href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i> California, USA</a>
+                                            <a class="author" href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 18.00Pm - 6.00Am</a>
+                                            <a class="comments" href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i> NAKURU, KENYA</a>
                                         </div>
                                         <div class="mx-auto" style="float: left;">
-                                            <button href="#" class="btn  btn-success">Event Info</button>
+                                            <button href="#" class="btn  btn-success">More Info</button>
                                         </div>
                                         <div class="mx-auto" style="float: right;">
                                             <button href="#" class="btn  btn-participate">Buy Ticket</button>
@@ -290,30 +318,7 @@
                                 </div>
                             </div>
                             <!-- End of card -->
-                            <!-- New card -->
-                            <div class="col-sm-6 col-md-4 col-lg-3 ">
-                                <div class="card">
-                                    <img class="card-img-top" src="img/bg_4.jpg" alt="Card image" height="170">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Azura Night</h4>
-                                        <div class="ribbon ribbon-left ribbon-shadow ribbon-color-danger uppercase"><i class="fa fa-calendar"></i> 19 Oct, 2019</div>
-                                        <p class="card-text">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eligendi modi praesentium quas, harum facilis nisi incidunt fuga!
-                                        </p>
-                                        <div class="event-latest-details">
-                                            <a class="author" href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00am - 3.00pm</a>
-                                            <a class="comments" href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i> California, USA</a>
-                                        </div>
-                                        <div class="mx-auto" style="float: left;">
-                                            <button href="#" class="btn  btn-success">Learn More</button>
-                                        </div>
-                                        <div class="mx-auto" style="float: right;">
-                                            <button href="#" class="btn  btn-participate">Buy Ticket</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of card -->
+                            
                         </div>
                     </div>
                 </div>
@@ -339,23 +344,24 @@
                             <form role="form" id="details-form">
                                 <div class="form-group">
                                     <label for="inputName">Name</label>
-                                    <input type="text" class="form-control" name="inputName" id="inputName" placeholder=" Please enter your name" value="j a" />
+                                    <input type="text" class="form-control" name="inputName" id="inputName" placeholder=" Please enter your name" value="" />
                                 </div>
                                 <div class="form-group">
-                                    <label for="inputGender">Gender</label>
+                                    <label for="inputGender">Select Ticket</label>
                                     <select class="form-control" name="inputGender" id="inputGender">
-                                        <option disabled>Select Gender</option>
-                                        <option value="M" selected>Female</option>
-                                        <option value="F">Male</option>
+                                        <option disabled>Ticket Type</option>
+                                        <option value="S">Normal</option>
+                                        <option value="VIP">VIP</option>
+                                        <option value="VVIP">VVIP</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
                                     <label for="inputPhone">Phone</label>
-                                    <input type="text" class="form-control" name="inputPhone" id="inputPhone" placeholder="eg. 0710100100" value="0710100100" />
+                                    <input type="text" class="form-control" name="inputPhone" id="inputPhone" placeholder="eg. 0710100100" value="" />
                                 </div>
                                 <div class="form-group">
                                     <label for="inputEmail">Email</label>
-                                    <input type="email" class="form-control" name="inputEmail" id="inputEmail" placeholder=" username@mail.com" value="username@mail.com" />
+                                    <input type="email" class="form-control" name="inputEmail" id="inputEmail" placeholder=" username@mail.com" value="" />
                                 </div>
                             </form>
                         </div>
@@ -399,7 +405,7 @@
                         <!-- Modal Footer -->
                         <div class="modal-footer">
                             <button type="button" class="btn btn-primary btn-back">Back</button>
-                            <button href="#" class="btn checkout" form="billingform"><img style="width: 45px; display: inline; margin: -8px;" src="img/mpesa.png" class="p-r-5" form="billingform"> Pay With Mpesa</button>
+                            <button href="#" class="btn checkout" form="billingform"><img style="width: 45px; display: inline; margin: -8px;" src="img/mpesa.png" class="p-r-5" form="billingform"> Lipa na Mpesa</button>
                         </div>
                     </div>
                 </div>
@@ -627,10 +633,6 @@
 
 
     <script type="text/javascript">
-        $('.btn-participate').on('click', function(event) {
-            
-            alert("message");
-        });
     $(document).ready(function() {
         let id = 0;
         $('body').on('click', '.btn-participate', function(event) {

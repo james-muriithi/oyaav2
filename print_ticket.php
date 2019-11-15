@@ -72,14 +72,14 @@ if (isset($_GET['ticket']) && !empty($_GET['ticket'])) {
 
 			// // event name
 			$event_name = (empty($event_name)) ? "Mombasa Twerk Night": $event_name;
-			$pdf->MultiCell($pdf->GetPageWidth()-70,7,$event_name." - Club Kiboko.",0,"L");
+			$pdf->MultiCell($pdf->GetPageWidth()-70,7,$event_name." - Azura Lounge.",0,"L");
 
 			// // // name
 			$pdf->SetFont('coves','',13);
 			$pdf->setTextColor(13, 13, 13);
 			// // $y = $pdf->GetY();
 			$pdf->SetXY(9,$y+30);
-			$pdf->MultiCell($pdf->GetPageWidth()-75,7,"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nobis minima tempore repellendus, molestias amet, reprehenderit tenetur harum hic, sequi iure.",0,"L");
+			$pdf->MultiCell($pdf->GetPageWidth()-75,7,"Happening live at Azura Lounge form 8pm till dawn!",0,"L");
 			$pdf->Ln(1);
 			$pdf->SetFont('moonb','',11);
 			$pdf->Cell(29,7,date("jS F Y", strtotime($booking_date)),0,0,'L');
