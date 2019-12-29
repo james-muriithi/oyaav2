@@ -59,7 +59,7 @@ if (isset($_POST['phone_no']) && isset($_POST['amount']) && !empty($_POST['phone
   $initiate_url = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
 
   # callback url
-  $CallBackURL = 'https://oyaa.co.ke/callback/callback_url.php';  
+  $CallBackURL = 'https://iamjamesmuriithi.theschemaqhigh.co.ke/callback/callback_url.php';  
 
  
 
